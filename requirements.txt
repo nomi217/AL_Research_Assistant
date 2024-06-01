@@ -1,0 +1,13 @@
+streamlit 
+phidata
+arxiv
+openai
+speechrecognition 
+pyaudio 
+pillow
+
+#Phidata is a framework designed to build autonomous assistants (aka Agents) with enhanced capabilities compared to traditional chatbots.
+#Here's a breakdown of its key features:
+#Memory: Phidata allows assistants to store past interactions and user data in a database. This enables them to maintain context and personalize future conversations by remembering past preferences or actions.
+#Knowledge: Phidata integrates with knowledge bases (like vector databases) to equip assistants with factual information and domain-specific expertise. This knowledge can be used to answer user questions more comprehensively.
+#Actionable Tools: Phidata empowers assistants to take actions by allowing them to call functions (tools). These functions can connect to APIs, send emails, query databases, or perform other actions relevant to the assistant's purpose.
