@@ -2,10 +2,8 @@ streamlit
 phidata
 arxiv
 openai
-speechrecognition 
-pyaudio 
 pillow
-
+pypdf
 #Phidata is a framework designed to build autonomous assistants (aka Agents) with enhanced capabilities compared to traditional chatbots.
 #Here's a breakdown of its key features:
 #Memory: Phidata allows assistants to store past interactions and user data in a database. This enables them to maintain context and personalize future conversations by remembering past preferences or actions.
