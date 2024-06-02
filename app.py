@@ -22,7 +22,7 @@ if openai_access_token:
     assistant = Assistant(
 
         llm=OpenAIChat(
-            model="gpt-4o-2024-05-13",
+            model="gpt-4o",
             max_tokens=1024,  
             temperature=0.9,  
             api_key=openai_access_token
@@ -33,11 +33,11 @@ if openai_access_token:
 
     query = st.text_input("Enter your search about Arxiv")
 
-    if st.button("Submit"):
-        if query:
-            response = assistant.run(query, stream=False)
-            st.write(response)
-        else:
-            st.write("Please enter a query to search")
+    #if st.button("Submit"):
+    if query:
+        response = assistant.run(query, stream=False)
+        st.write(response)
+    else:
+        st.write("Please enter a query to search")
 else:
     st.error("Error: Missing secret key! Please set up your .env file or enter the API key.")
