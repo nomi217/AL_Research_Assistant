@@ -20,3 +20,4 @@ Run the Streamlit App
 ```
 streamlit run app.py
 ```
+Check this out [Lablab.ai](https://lablab.ai/event/hello-gpt-4o-ai-challenge/visionary-4o/ai-research-assistant)
